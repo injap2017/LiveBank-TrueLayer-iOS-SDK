@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		670EF0A71F970BB600BB825B /* TrueLayerString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EF0A61F970BB600BB825B /* TrueLayerString.swift */; };
+		670EF0A91F970BEC00BB825B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EF0A81F970BEC00BB825B /* User.swift */; };
+		670EF0AB1F970C1700BB825B /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EF0AA1F970C1700BB825B /* Provider.swift */; };
+		670EF0AD1F970C3A00BB825B /* AccountNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EF0AC1F970C3A00BB825B /* AccountNumber.swift */; };
+		670EF0AF1F970C5400BB825B /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EF0AE1F970C5400BB825B /* Account.swift */; };
+		670EF0B11F970C7200BB825B /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EF0B01F970C7200BB825B /* Balance.swift */; };
+		670EF0B31F97444B00BB825B /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EF0B21F97444B00BB825B /* UserDefaults.swift */; };
+		670EF0B51F97492D00BB825B /* LiveBankString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EF0B41F97492D00BB825B /* LiveBankString.swift */; };
+		670EF0B71F97A46800BB825B /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EF0B61F97A46800BB825B /* Date.swift */; };
+		670EF0BE1F97B15C00BB825B /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 670EF0BD1F97B15C00BB825B /* NotificationCenter.framework */; };
+		670EF0C11F97B15C00BB825B /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EF0C01F97B15C00BB825B /* TodayViewController.swift */; };
+		670EF0C41F97B15D00BB825B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670EF0C21F97B15D00BB825B /* MainInterface.storyboard */; };
+		670EF0C81F97B15D00BB825B /* Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 670EF0BC1F97B15C00BB825B /* Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6736F9FE1F94548D00D37110 /* TrueLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736F9FD1F94548D00D37110 /* TrueLayerViewController.swift */; };
+		6736FA001F94550F00D37110 /* TrueLayerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6736F9FF1F94550F00D37110 /* TrueLayerStoryboard.storyboard */; };
+		676A74261F95D23B00A9F3C1 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676A74251F95D23B00A9F3C1 /* URL.swift */; };
+		677F4A061F8F656A00552FBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677F4A051F8F656A00552FBF /* AppDelegate.swift */; };
+		677F4A081F8F656A00552FBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677F4A071F8F656A00552FBF /* ViewController.swift */; };
+		677F4A0B1F8F656A00552FBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 677F4A091F8F656A00552FBF /* Main.storyboard */; };
+		677F4A0D1F8F656B00552FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677F4A0C1F8F656B00552FBF /* Assets.xcassets */; };
+		677F4A101F8F656B00552FBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 677F4A0E1F8F656B00552FBF /* LaunchScreen.storyboard */; };
+		677F4A1C1F8F6ACB00552FBF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677F4A1B1F8F6ACB00552FBF /* LoginViewController.swift */; };
+		67814FED1F930F9F00F8A51E /* TrueLayerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67814FEC1F930F9F00F8A51E /* TrueLayerClient.swift */; };
+		67E193791FBC5D5700B5713B /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E193781FBC5D5700B5713B /* Double.swift */; };
+		67E1937A1FBC811400B5713B /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E193781FBC5D5700B5713B /* Double.swift */; };
+		67E1937B1FBC882500B5713B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 677F4A0C1F8F656B00552FBF /* Assets.xcassets */; };
+		67E7085F1F989B78004166C9 /* TrueLayerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67814FEC1F930F9F00F8A51E /* TrueLayerClient.swift */; };
+		67E708601F989B7B004166C9 /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EF0B01F970C7200BB825B /* Balance.swift */; };
+		67E708611F989B7D004166C9 /* AccountNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EF0AC1F970C3A00BB825B /* AccountNumber.swift */; };
+		67E708621F989B80004166C9 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EF0AE1F970C5400BB825B /* Account.swift */; };
+		67E708631F989B83004166C9 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EF0AA1F970C1700BB825B /* Provider.swift */; };
+		67E708641F989B86004166C9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EF0A81F970BEC00BB825B /* User.swift */; };
+		67E708651F989B8A004166C9 /* TrueLayerString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EF0A61F970BB600BB825B /* TrueLayerString.swift */; };
+		67E708661F989B8C004166C9 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676A74251F95D23B00A9F3C1 /* URL.swift */; };
+		67E708671F989B90004166C9 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EF0B21F97444B00BB825B /* UserDefaults.swift */; };
+		67E7086A1F989C9A004166C9 /* LiveBankString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EF0B41F97492D00BB825B /* LiveBankString.swift */; };
+		67E7086B1F989FDF004166C9 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670EF0B61F97A46800BB825B /* Date.swift */; };
+		67E7086E1F98B623004166C9 /* TrueLayerClientUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7086D1F98B623004166C9 /* TrueLayerClientUI.swift */; };
+		67E708721F98E464004166C9 /* LiveBankStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E708711F98E464004166C9 /* LiveBankStore.swift */; };
+		67E708741F98E713004166C9 /* TrueLayerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E708731F98E713004166C9 /* TrueLayerStore.swift */; };
+		67E708751F98E7BF004166C9 /* TrueLayerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E708731F98E713004166C9 /* TrueLayerStore.swift */; };
+		67E708761F98E823004166C9 /* LiveBankStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E708711F98E464004166C9 /* LiveBankStore.swift */; };
+		67F081C11F9613C3003DE26A /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F081C01F9613C3003DE26A /* AccountsViewController.swift */; };
+		67F081C31F964FC8003DE26A /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F081C21F964FC8003DE26A /* AccountCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		670EF0C61F97B15D00BB825B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 677F49FA1F8F656A00552FBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 670EF0BB1F97B15C00BB825B;
+			remoteInfo = Widget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		670EF0CC1F97B15D00BB825B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				670EF0C81F97B15D00BB825B /* Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		670EF0A61F970BB600BB825B /* TrueLayerString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueLayerString.swift; sourceTree = "<group>"; };
+		670EF0A81F970BEC00BB825B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		670EF0AA1F970C1700BB825B /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		670EF0AC1F970C3A00BB825B /* AccountNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountNumber.swift; sourceTree = "<group>"; };
+		670EF0AE1F970C5400BB825B /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		670EF0B01F970C7200BB825B /* Balance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
+		670EF0B21F97444B00BB825B /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		670EF0B41F97492D00BB825B /* LiveBankString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveBankString.swift; sourceTree = "<group>"; };
+		670EF0B61F97A46800BB825B /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		670EF0BC1F97B15C00BB825B /* Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Widget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		670EF0BD1F97B15C00BB825B /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		670EF0C01F97B15C00BB825B /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		670EF0C31F97B15D00BB825B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		670EF0C51F97B15D00BB825B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6736F9FD1F94548D00D37110 /* TrueLayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueLayerViewController.swift; sourceTree = "<group>"; };
+		6736F9FF1F94550F00D37110 /* TrueLayerStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TrueLayerStoryboard.storyboard; sourceTree = "<group>"; };
+		676A74251F95D23B00A9F3C1 /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		677F4A021F8F656A00552FBF /* LiveBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		677F4A051F8F656A00552FBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		677F4A071F8F656A00552FBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		677F4A0A1F8F656A00552FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		677F4A0C1F8F656B00552FBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		677F4A0F1F8F656B00552FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		677F4A111F8F656B00552FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		677F4A1B1F8F6ACB00552FBF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		67814FEC1F930F9F00F8A51E /* TrueLayerClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueLayerClient.swift; sourceTree = "<group>"; };
+		67E193781FBC5D5700B5713B /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		67E7086D1F98B623004166C9 /* TrueLayerClientUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TrueLayerClient\U0010UI.swift"; sourceTree = "<group>"; };
+		67E708711F98E464004166C9 /* LiveBankStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveBankStore.swift; sourceTree = "<group>"; };
+		67E708731F98E713004166C9 /* TrueLayerStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueLayerStore.swift; sourceTree = "<group>"; };
+		67E708771F98ED62004166C9 /* LiveBank.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LiveBank.entitlements; sourceTree = "<group>"; };
+		67E708781F98EDBD004166C9 /* Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widget.entitlements; sourceTree = "<group>"; };
+		67F081C01F9613C3003DE26A /* AccountsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
+		67F081C21F964FC8003DE26A /* AccountCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		670EF0B91F97B15C00BB825B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670EF0BE1F97B15C00BB825B /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677F49FF1F8F656A00552FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CB541FFE2D2E490FE024E75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				670EF0BD1F97B15C00BB825B /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		670EF0BF1F97B15C00BB825B /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				67E708781F98EDBD004166C9 /* Widget.entitlements */,
+				670EF0C01F97B15C00BB825B /* TodayViewController.swift */,
+				670EF0C21F97B15D00BB825B /* MainInterface.storyboard */,
+				670EF0C51F97B15D00BB825B /* Info.plist */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		677F49F91F8F656A00552FBF = {
+			isa = PBXGroup;
+			children = (
+				677F4A041F8F656A00552FBF /* LiveBank */,
+				670EF0BF1F97B15C00BB825B /* Widget */,
+				677F4A031F8F656A00552FBF /* Products */,
+				2CB541FFE2D2E490FE024E75 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		677F4A031F8F656A00552FBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				677F4A021F8F656A00552FBF /* LiveBank.app */,
+				670EF0BC1F97B15C00BB825B /* Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		677F4A041F8F656A00552FBF /* LiveBank */ = {
+			isa = PBXGroup;
+			children = (
+				67E708771F98ED62004166C9 /* LiveBank.entitlements */,
+				670EF0B61F97A46800BB825B /* Date.swift */,
+				676A74251F95D23B00A9F3C1 /* URL.swift */,
+				67E193781FBC5D5700B5713B /* Double.swift */,
+				670EF0B21F97444B00BB825B /* UserDefaults.swift */,
+				670EF0B41F97492D00BB825B /* LiveBankString.swift */,
+				67E708711F98E464004166C9 /* LiveBankStore.swift */,
+				677F4A051F8F656A00552FBF /* AppDelegate.swift */,
+				677F4A071F8F656A00552FBF /* ViewController.swift */,
+				677F4A1B1F8F6ACB00552FBF /* LoginViewController.swift */,
+				67F081C01F9613C3003DE26A /* AccountsViewController.swift */,
+				67F081C21F964FC8003DE26A /* AccountCell.swift */,
+				677F4A091F8F656A00552FBF /* Main.storyboard */,
+				670EF0B01F970C7200BB825B /* Balance.swift */,
+				670EF0AC1F970C3A00BB825B /* AccountNumber.swift */,
+				670EF0AE1F970C5400BB825B /* Account.swift */,
+				670EF0AA1F970C1700BB825B /* Provider.swift */,
+				670EF0A81F970BEC00BB825B /* User.swift */,
+				67814FEC1F930F9F00F8A51E /* TrueLayerClient.swift */,
+				67E708731F98E713004166C9 /* TrueLayerStore.swift */,
+				670EF0A61F970BB600BB825B /* TrueLayerString.swift */,
+				67E7086D1F98B623004166C9 /* TrueLayerClientUI.swift */,
+				6736F9FD1F94548D00D37110 /* TrueLayerViewController.swift */,
+				6736F9FF1F94550F00D37110 /* TrueLayerStoryboard.storyboard */,
+				677F4A0C1F8F656B00552FBF /* Assets.xcassets */,
+				677F4A0E1F8F656B00552FBF /* LaunchScreen.storyboard */,
+				677F4A111F8F656B00552FBF /* Info.plist */,
+			);
+			path = LiveBank;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		670EF0BB1F97B15C00BB825B /* Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670EF0C91F97B15D00BB825B /* Build configuration list for PBXNativeTarget "Widget" */;
+			buildPhases = (
+				670EF0B81F97B15C00BB825B /* Sources */,
+				670EF0B91F97B15C00BB825B /* Frameworks */,
+				670EF0BA1F97B15C00BB825B /* Resources */,
+				4B537D6B1FBD4656006B4998 /* Run Script - Crashlytics */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Widget;
+			productName = Widget;
+			productReference = 670EF0BC1F97B15C00BB825B /* Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		677F4A011F8F656A00552FBF /* LiveBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 677F4A141F8F656B00552FBF /* Build configuration list for PBXNativeTarget "LiveBank" */;
+			buildPhases = (
+				677F49FE1F8F656A00552FBF /* Sources */,
+				677F49FF1F8F656A00552FBF /* Frameworks */,
+				677F4A001F8F656A00552FBF /* Resources */,
+				670EF0CC1F97B15D00BB825B /* Embed App Extensions */,
+				4B537D6A1FBD460D006B4998 /* Run Script - Crashlytics */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				670EF0C71F97B15D00BB825B /* PBXTargetDependency */,
+			);
+			name = LiveBank;
+			productName = LiveBank;
+			productReference = 677F4A021F8F656A00552FBF /* LiveBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		677F49FA1F8F656A00552FBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = LeeLiangLiang;
+				TargetAttributes = {
+					670EF0BB1F97B15C00BB825B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VY6Q9MSE55;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					677F4A011F8F656A00552FBF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VY6Q9MSE55;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 677F49FD1F8F656A00552FBF /* Build configuration list for PBXProject "LiveBank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 677F49F91F8F656A00552FBF;
+			productRefGroup = 677F4A031F8F656A00552FBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				677F4A011F8F656A00552FBF /* LiveBank */,
+				670EF0BB1F97B15C00BB825B /* Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		670EF0BA1F97B15C00BB825B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E1937B1FBC882500B5713B /* Assets.xcassets in Resources */,
+				670EF0C41F97B15D00BB825B /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677F4A001F8F656A00552FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677F4A101F8F656B00552FBF /* LaunchScreen.storyboard in Resources */,
+				677F4A0D1F8F656B00552FBF /* Assets.xcassets in Resources */,
+				677F4A0B1F8F656A00552FBF /* Main.storyboard in Resources */,
+				6736FA001F94550F00D37110 /* TrueLayerStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B537D6A1FBD460D006B4998 /* Run Script - Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - Crashlytics";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 205ec9bc86d44ca402b6e61c88bf324c317c0015 9e609dd096db11a5083a4e053f10693cb4958857b21a78f6c3a5083080577f3c";
+		};
+		4B537D6B1FBD4656006B4998 /* Run Script - Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - Crashlytics";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 205ec9bc86d44ca402b6e61c88bf324c317c0015 9e609dd096db11a5083a4e053f10693cb4958857b21a78f6c3a5083080577f3c";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		670EF0B81F97B15C00BB825B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E708621F989B80004166C9 /* Account.swift in Sources */,
+				67E708611F989B7D004166C9 /* AccountNumber.swift in Sources */,
+				67E7086A1F989C9A004166C9 /* LiveBankString.swift in Sources */,
+				67E708661F989B8C004166C9 /* URL.swift in Sources */,
+				67E7085F1F989B78004166C9 /* TrueLayerClient.swift in Sources */,
+				67E708751F98E7BF004166C9 /* TrueLayerStore.swift in Sources */,
+				67E708601F989B7B004166C9 /* Balance.swift in Sources */,
+				67E708651F989B8A004166C9 /* TrueLayerString.swift in Sources */,
+				67E708671F989B90004166C9 /* UserDefaults.swift in Sources */,
+				67E708631F989B83004166C9 /* Provider.swift in Sources */,
+				670EF0C11F97B15C00BB825B /* TodayViewController.swift in Sources */,
+				67E708761F98E823004166C9 /* LiveBankStore.swift in Sources */,
+				67E7086B1F989FDF004166C9 /* Date.swift in Sources */,
+				67E1937A1FBC811400B5713B /* Double.swift in Sources */,
+				67E708641F989B86004166C9 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		677F49FE1F8F656A00552FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				677F4A081F8F656A00552FBF /* ViewController.swift in Sources */,
+				670EF0AF1F970C5400BB825B /* Account.swift in Sources */,
+				670EF0B51F97492D00BB825B /* LiveBankString.swift in Sources */,
+				67F081C31F964FC8003DE26A /* AccountCell.swift in Sources */,
+				677F4A061F8F656A00552FBF /* AppDelegate.swift in Sources */,
+				67814FED1F930F9F00F8A51E /* TrueLayerClient.swift in Sources */,
+				6736F9FE1F94548D00D37110 /* TrueLayerViewController.swift in Sources */,
+				677F4A1C1F8F6ACB00552FBF /* LoginViewController.swift in Sources */,
+				670EF0B71F97A46800BB825B /* Date.swift in Sources */,
+				67E708741F98E713004166C9 /* TrueLayerStore.swift in Sources */,
+				67E7086E1F98B623004166C9 /* TrueLayerClientUI.swift in Sources */,
+				670EF0A71F970BB600BB825B /* TrueLayerString.swift in Sources */,
+				670EF0AB1F970C1700BB825B /* Provider.swift in Sources */,
+				67E193791FBC5D5700B5713B /* Double.swift in Sources */,
+				670EF0AD1F970C3A00BB825B /* AccountNumber.swift in Sources */,
+				67F081C11F9613C3003DE26A /* AccountsViewController.swift in Sources */,
+				670EF0B31F97444B00BB825B /* UserDefaults.swift in Sources */,
+				67E708721F98E464004166C9 /* LiveBankStore.swift in Sources */,
+				670EF0A91F970BEC00BB825B /* User.swift in Sources */,
+				670EF0B11F970C7200BB825B /* Balance.swift in Sources */,
+				676A74261F95D23B00A9F3C1 /* URL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		670EF0C71F97B15D00BB825B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 670EF0BB1F97B15C00BB825B /* Widget */;
+			targetProxy = 670EF0C61F97B15D00BB825B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		670EF0C21F97B15D00BB825B /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670EF0C31F97B15D00BB825B /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		677F4A091F8F656A00552FBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				677F4A0A1F8F656A00552FBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		677F4A0E1F8F656B00552FBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				677F4A0F1F8F656B00552FBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		670EF0CA1F97B15D00BB825B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/Widget.entitlements;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = VY6Q9MSE55;
+				INFOPLIST_FILE = Widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smith.livebank.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		670EF0CB1F97B15D00BB825B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/Widget.entitlements;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = VY6Q9MSE55;
+				INFOPLIST_FILE = Widget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smith.livebank.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		677F4A121F8F656B00552FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		677F4A131F8F656B00552FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		677F4A151F8F656B00552FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LiveBank/LiveBank.entitlements;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = VY6Q9MSE55;
+				INFOPLIST_FILE = LiveBank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smith.livebank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		677F4A161F8F656B00552FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LiveBank/LiveBank.entitlements;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = VY6Q9MSE55;
+				INFOPLIST_FILE = LiveBank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smith.livebank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		670EF0C91F97B15D00BB825B /* Build configuration list for PBXNativeTarget "Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670EF0CA1F97B15D00BB825B /* Debug */,
+				670EF0CB1F97B15D00BB825B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		677F49FD1F8F656A00552FBF /* Build configuration list for PBXProject "LiveBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				677F4A121F8F656B00552FBF /* Debug */,
+				677F4A131F8F656B00552FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		677F4A141F8F656B00552FBF /* Build configuration list for PBXNativeTarget "LiveBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				677F4A151F8F656B00552FBF /* Debug */,
+				677F4A161F8F656B00552FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 677F49FA1F8F656A00552FBF /* Project object */;
+}
